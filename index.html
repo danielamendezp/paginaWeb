@@ -3,27 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=640, initial-scale=1.0">
-    <title>Página web de Daniela Mendez</title>
+    <title>Página web</title>
+    <script src="codigo.js"></script>
+    <link rel="stylesheet" href="estilos.css">
 </head>
-<body style="background-color: #f0f0f0;">
+<body>
 
-    <h1>Página web de Daniela Mendez</h1>
+    <h1>Página web de Daniela Mendez Porras</h1>
+    <hgroup>Pagina de prueba para la tarea #1 de Diseño Web</hgroup>
+    <address>mendez.daniela1199@gmail.com</address>
 
-    <img src="images/fotograduacion.jpeg"  width="380" height="500">
+    <div>
+        <figure>
+            <img src="fotograduacion.jpeg"  width="380" height="500">
+            <figcaption>Graduacion Agosto 2023.</figcaption>
+        </figure>
+        <p>Visita mi página web: <a href="https://danielamendezp.github.io/paginaWeb/" target="_blank">https://danielamendezp.github.io/paginaWeb/</a></p>
 
+    </div>
 
-    <video width="640" height="360" controls>
-        <source src="images/hxhVideo.mp4" type="video/mp4">
-    </video>
-
- 
-    <audio controls>
-        <source src="images/bossaNova.mp4" type="audio/mp4">
-    </audio>
-
+    <div>
+        <video width="640" height="360" controls>
+            <source src="hxhVideo.mp4" type="video/mp4">
+        </video>
+        <track src="subtitulos_es.vtt" kind="subtitles" srclang="es" label="Español">
+        <p>Práctica de pieza "In the Palace" del anime Hunter X Hunter</p>
+        <br>Estracto
+    </div>
+   
+    <div class="audio-div">
+        <p>Bossa Nova - Ensayo con grupo musical</p>
+        <br>Improvisaciones
+        <br>
+        <audio controls>
+            <source src="bossaNova.mp4" type="audio/mp4">
+        </audio>
+    </div>
  
     <p>Esta es la pagina web de Daniela Mendez, estudiante de Ingenieria en Software</p>
 
+    <p>Estos datos son pruebas:</p>
+
+    <ul>
+        <dl>No ordenada</dl>
+        <li>Ingenieria Electronica</li>
+        <dd>Que es la electronica?</dd>
+        <li>Ingenieria en Software</li>
+    </ul>
+
+    <details>
+        <summary>Haz clic para ver más detalles</summary>
+        <p>Este es el contenido adicional que se oculta y se expande al abrirlo</p>
+    </details>
+
+    <ol>
+        <dl>Ordenada</dl>
+        <li>Numero 1</li>
+        <li>Numero 2</li>
+        <dl><img src="DanielaMendez.png"  width="200" height="150"></dl>
+        <dt>Logo de Daniela Mendez</dt>
+        
+    </ol>
+
+    <iframe
+        width="500"
+        height="350"
+        src="https://www.youtube.com/embed/wVmI1G26Ny4"
+        frameborder="0"
+        allowfullscreen
+    ></iframe>
+    <h1>Cuadro de Diálogo</h1>
+
+    <button id="dialogo">Boton de ejemplo</button>
+
+    <dialog id="dialogo">
+        <h2>Contenido del Cuadro de Diálogo</h2>
+    </dialog>
+
+    <blockquote>
+        <p>“Es mejor ser rey de tu silencio que esclavo de tus palabras”.</p>
+        <footer>- William Shakespeare</footer>
+    </blockquote>
+
+    <div name="texto">
+        <h1>Ejemplos en texto</h1>
+
+        <p>como  dijo  el famoso William Shakespeare <q>Es mejor ser rey de tu silencio que esclavo de tus palabras</q></p>
+    
+        <p>como dijo el famoso William Shakespeare  <q>Es mejor ser rey de tu silencio que esclavo de tus palabras</q> <cite>Fuente: William Shakespeare</cite>.</p>
+        <br>
+    
+        <p>En la <em>musica</em>  la sigla <abbr title="crescendo">cresc</abbr> significa aumentar el volumen poco a poco .</p>
+    
+        <br>
+
+        <p>La etiqueta <code>&lt;code&gt;</code> se muestra en pequenno.</p>
+        
+        <p>En la compañia Emerson  los <mark><dfn title="Sistema de control distribuido">DCS</dfn> son sumamente famosos.</p>
+        <br> <del>ha sido borrado</del>
+        <p>Para cargar una pagina web en <ins> <b>Github</b> </ins> el <i>archivo</i>  principal se debe llamar <kbd>index.html</kbd></p>
+        
+        <p> x<sub>1</sub> = -b + </sup><span class="sqrt">&#x221A;<span class="overline">b<sup>2</sup> - 4ac</span></span><br> </p>
+        
+        <p>El numero 3<sup>2</sup> es igual a 9.</p>
+
+        <p>El play 5 cuesta: <data value="900" currency="USD">$900</data></p>
+    </div>
+
+
+    <p><strong>La fecha de publicación de esta pagina <time datetime="2024-02-03">3 de febrero 2024</time>.</p>
 </body>
 </html>
 

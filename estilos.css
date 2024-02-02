@@ -1,0 +1,36 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a3b9cf;
+    color: #333;
+    margin: 15px;
+}
+
+
+h1 {
+    color: #0066c0;
+}
+
+p{
+    color: #020202;
+}
+
+div{
+    margin: 15px;
+    background-color: #99b499;
+}
+.audio-div {
+    border: 2px solid #ccc;
+    padding: 10; 
+    margin: 1px;
+    background-color: #da7676; 
+    color: #fff;
+}
+
+.texto {
+    border: 2px solid #b98a8a;
+    padding: 10; 
+    margin: 1px;
+    background-color: #da7676; 
+    color: #fff;
+}
